@@ -1,13 +1,25 @@
 
 **Nombre: Jorge Diaz**
 ---
-<h2>#Ejercicio 1. Crea un archivo de texto llamado textos.txt</h2>
+# Ejercicio 1. Crea un archivo de texto llamado textos.txt
 
 La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo pone de igual forma tu lo escribes pero cuando lo cambio a un archivo .html si aplica los parametros que le añado.
 
 ---
 
-#Ejercicio 2. Observa el siguiente fragmento de un texto:
+# Ejercicio 2. Observa el siguiente fragmento de un texto:
 ```
 <dam>
-´´´
+  <modulo><titulo>Lenguaje de Marcas</titulo>
+    <contenido>
+      <unidad>Introducción</unidad>
+      <unidad>HTML</unidad>
+      <unidad>CSS</unidad>
+      …
+    </contenido>
+  </modulo>
+…
+</dam>
+
+```
+

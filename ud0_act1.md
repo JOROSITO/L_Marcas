@@ -16,10 +16,10 @@ La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo
       <unidad>Introducción</unidad>
       <unidad>HTML</unidad>
       <unidad>CSS</unidad>
-      …
+      <unidad>XML</unidad>
+      <unidad>SGML</unidad>
     </contenido>
   </modulo>
-…
 </dam>
 ```
 
@@ -35,3 +35,9 @@ La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo
 ---
 
 # 4.	Modifica con un lenguaje de marcas la siguiente información para darle estructura y significado semántico al documento. Indica vocabulario y reglas.
+
+```
+
+```
+
+# Fin.

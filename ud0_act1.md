@@ -3,6 +3,6 @@
 ---
 **#Ejercicio 1. Crea un archivo de texto llamado textos.txt**
 
-¿Qué conclusiones sacas de tu observación?
-La conclusión que saco es el archivo .txt en el navegador te lo pone tal cual lo escribes en cambio cuando es .html aplica los parámetro que le añado como el tamaño, etc.
+La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo pone de igual forma tu lo escribes pero cuando lo cambio a un archivo .html si aplica los parametros que le añado.
+
 --

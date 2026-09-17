@@ -7,7 +7,8 @@ La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo
 
 ---
 
-# Ejercicio 2. Observa el siguiente fragmento de un texto:
+# Ejercicio 2. Observa el siguiente fragmento de un texto: (DAM.sgml)
+
 ```
 <dam>
   <modulo><titulo>Lenguaje de Marcas</titulo>
@@ -20,6 +21,17 @@ La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo
   </modulo>
 …
 </dam>
-
 ```
 
+---
+
+# 3.	Crea tu propio documento SGML indicando vocabulario y reglas. Implementa los datos para PAISES DEL MUNDO.
+
+```
+<dam>
+  <modulo>
+```
+
+---
+
+# 4.	Modifica con un lenguaje de marcas la siguiente información para darle estructura y significado semántico al documento. Indica vocabulario y reglas.

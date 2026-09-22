@@ -28,8 +28,11 @@ La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo
 # 3.	Crea tu propio documento SGML indicando vocabulario y reglas. Implementa los datos para PAISES DEL MUNDO.
 
 ```
-<dam>
-  <modulo>
+<paises>
+  <pais>
+    <nombre>España</nombre>
+    <capital>Madrid</capital>
+    <continente>Europa</continente>
 ```
 
 ---

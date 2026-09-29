@@ -33,6 +33,30 @@ La conclusion que saco es que el archivo .txt al mostrarlo en el navegador te lo
     <nombre>España</nombre>
     <capital>Madrid</capital>
     <continente>Europa</continente>
+    <poblacion>48000000</poblacion>
+    <idioma>Español</idioma>
+    <moneda>Euro</moneda>
+  </pais>
+
+  <pais>
+    <nombre>Francia</nombre>
+    <capital>París</capital>
+    <continente>Europa</continente>
+    <poblacion>68000000</poblacion>
+    <idioma>Francés</idioma>
+    <moneda>Euro</moneda>
+  </pais>
+
+  <pais>
+    <nombre>Japón</nombre>
+    <capital>Tokio</capital>
+    <continente>Asia</continente>
+    <poblacion>124000000</poblacion>
+    <idioma>Japonés</idioma>
+    <moneda>Yen</moneda>
+  </pais>
+
+</paises>
 ```
 
 ---

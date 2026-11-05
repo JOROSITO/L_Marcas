@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+ul.ingredientes {
+  list-style-type: square;
+}
+
+ol.pasos {
+  list-style-type: upper-roman;
+}
+
+ul.utensilios {
+  list-style-type: circle;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: #e67e22;
+}

@@ -1,0 +1,24 @@
+/* 
+  DIFERENCIA OBSERVADA ENTRE 'inside' Y 'outside':
+  - list-style-position: outside (predeterminado): Coloca la viñeta/imagen fuera del bloque de texto.
+    Si el texto ocupa varias líneas, la segunda línea se alinea verticalmente con la primera palabra (sangrado clásico).
+  - list-style-position: inside: Coloca la viñeta/imagen DENTRO del bloque de texto.
+    La segunda línea del texto pasa justo por debajo del icono/viñeta.
+  - Conclusión: 'outside' resulta notablemente más legible para textos largos que ocupan varias líneas. */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+  max-width: 750px;
+  margin: 30px auto;
+}
+
+ul.lista-modulos {
+  list-style: url("img/44994.webp") disc outside;
+  line-height: 1.5;
+  padding-left: 25px;
+}
+
+ul.lista-modulos li {
+  margin-bottom: 12px;
+}

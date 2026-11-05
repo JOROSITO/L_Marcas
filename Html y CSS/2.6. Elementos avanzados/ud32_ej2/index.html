@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>UD3.2 Ejercicio 2 - Formulario con Estados</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <form class="contenedor-formulario" action="#" method="post">
+    <h1>Alta de Usuario</h1>
+
+    <table class="tabla-campos">
+      <tr>
+        <td colspan="2">
+          <label for="id_usuario">Identificador de usuario:</label>
+          <input type="text" id="id_usuario" name="id_usuario" value="usu_012345" readonly title="Identificador único no modificable">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required title="Introduce tu nombre completo">
+        </td>
+        <td>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required title="Introduce un e-mail válido">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="pass">Contraseña:</label>
+          <input type="password" id="pass" name="pass" required title="Introduce tu contraseña">
+        </td>
+        <td>
+          <label for="cod_promo">Código promocional:</label>
+          <input type="text" id="cod_promo" name="cod_promo" value="PROMO2026" disabled title="Campo deshabilitado temporalmente">
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <span>Sexo:</span>
+          <input type="radio" id="hombre" name="sexo" value="Hombre">
+          <label for="hombre">Hombre</label>
+
+          <input type="radio" id="mujer" name="sexo" value="Mujer" checked>
+          <label for="mujer">Mujer</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <span>Aficiones:</span>
+          <input type="checkbox" id="deporte" name="aficiones" value="Deporte">
+          <label for="deporte">Deporte</label>
+
+          <input type="checkbox" id="lectura" name="aficiones" value="Lectura" checked>
+          <label for="lectura">Lectura</label>
+
+          <input type="checkbox" id="cine" name="aficiones" value="Cine">
+          <label for="cine">Cine</label>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>

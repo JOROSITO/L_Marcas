@@ -1,0 +1,72 @@
+/* ==========================================================================
+   1. REGLAS GLOBALES Y AGRUPACIÓN DE SELECTORES
+   ========================================================================== */
+body, html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+/* Agrupación de selectores separados por comas */
+h1.titulo-producto, h2.subtitulo-producto {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin-top: 0;
+}
+
+/* ==========================================================================
+   2. CONTENEDOR PRINCIPAL (Agrupación de reglas para un mismo elemento)
+   ========================================================================== */
+.tarjeta-gaming {
+  background-color: #1e293b;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* ==========================================================================
+   3. CLASES ESPECÍFICAS Y FORMATO DE TEXTO
+   ========================================================================== */
+.titulo-producto {
+  color: #38bdf8;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.subtitulo-producto {
+  color: #94a3b8;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.descripcion {
+  color: #cbd5e1;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.precio {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.destacado {
+  color: #4ade80;
+}
+
+.boton-comprar {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+}

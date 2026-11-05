@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de alta de usuario</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <form action="#" method="post" enctype="multipart/form-data" class="contenedor-formulario">
+
+    <h1>Formulario de alta de usuario</h1>
+
+    <table class="tabla-campos">
+
+      <tr>
+        <td colspan="2" class="celda-cabecera">
+          <label for="id_usuario">Identificador de nuevo usuario</label>
+          <input type="text" id="id_usuario" name="id_usuario" value="usu_012345" readonly title="Identificador único generado automáticamente">
+        </td>
+      </tr>
+
+      <!-- 2. Nombre y Apellidos -->
+      <tr>
+        <td>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" title="Escriba su nombre de usuario">
+        </td>
+        <td>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" name="apellidos" title="Escriba sus apellidos">
+        </td>
+      </tr>
+
+      <!-- 3. Contraseñas -->
+      <tr>
+        <td>
+          <label for="pass">Contraseña:</label>
+          <input type="password" id="pass" name="pass" title="Introduzca su contraseña de acceso">
+        </td>
+        <td>
+          <label for="confirm_pass">Confirmar contraseña:</label>
+          <input type="password" id="confirm_pass" name="confirm_pass" title="Repita la contraseña para verificarla">
+        </td>
+      </tr>
+
+      <!-- 4. Email -->
+      <tr>
+        <td colspan="2">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="input-largo" title="Introduzca su correo electrónico">
+        </td>
+      </tr>
+
+      <!-- 5. Sexo -->
+      <tr>
+        <td><span class="etiqueta-texto">Sexo:</span></td>
+        <td>
+          <input type="radio" id="sexo_h" name="sexo" value="hombre" title="Marcar sexo Hombre">
+          <label for="sexo_h">Hombre</label>
+          <input type="radio" id="sexo_m" name="sexo" value="mujer" checked title="Marcar sexo Mujer">
+          <label for="sexo_m">Mujer</label>
+        </td>
+      </tr>
+
+      <!-- 6. Aficiones -->
+      <tr>
+        <td><span class="etiqueta-texto">Aficiones:</span></td>
+        <td>
+          <input type="checkbox" id="aficion_deportes" name="aficiones[]" value="deportes" title="Seleccionar deportes">
+          <label for="aficion_deportes">Deportes</label><br>
+          <input type="checkbox" id="aficion_lectura" name="aficiones[]" value="lectura" checked title="Seleccionar lectura">
+          <label for="aficion_lectura">Lectura</label><br>
+          <input type="checkbox" id="aficion_cine" name="aficiones[]" value="cine" title="Seleccionar cine">
+          <label for="aficion_cine">Cine</label>
+        </td>
+      </tr>
+
+      <!-- 7. País -->
+      <tr>
+        <td><label for="pais">País:</label></td>
+        <td>
+          <select id="pais" name="pais" title="Seleccione su país de origen">
+            <option value="espana" selected>España</option>
+            <option value="francia">Francia</option>
+            <option value="portugal">Portugal</option>
+          </select>
+        </td>
+      </tr>
+
+      <!-- 8. Subir foto -->
+      <tr>
+        <td><label for="foto">Subir su foto:</label></td>
+        <td>
+          <input type="file" id="foto" name="foto" title="Seleccione un archivo de imagen desde su equipo">
+        </td>
+      </tr>
+
+      <!-- 9. Comentarios personales -->
+      <tr>
+        <td><label for="comentarios">Comentarios personales:</label></td>
+        <td>
+          <textarea id="comentarios" name="comentarios" cols="40" rows="5" title="Escriba aquí sus comentarios personales">Escriba aquí sus comentarios</textarea>
+        </td>
+      </tr>
+
+      <!-- 10. Botones -->
+      <tr>
+        <td class="celda-centro">
+          <input type="reset" value="Resetear" title="Reiniciar todos los campos del formulario">
+        </td>
+        <td class="celda-centro">
+          <input type="submit" value="Enviar" title="Enviar formulario al servidor">
+        </td>
+      </tr>
+
+    </table>
+  </form>
+
+</body>
+</html>

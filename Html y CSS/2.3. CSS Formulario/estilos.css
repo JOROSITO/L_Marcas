@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 30px;
+}
+
+/* 1. Fondo salmón para todo el formulario exterior */
+.contenedor-formulario {
+  background-color: #e2876e;
+  padding: 16px;
+  width: 680px;
+  box-sizing: border-box;
+}
+
+/* 2. Título limpio sobre el salmón */
+.contenedor-formulario h1 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+/* 3. La tabla forma el recuadro con borde blanco envolvente */
+.tabla-campos {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ffffff; /* Borde blanco exterior de la cuadrícula */
+}
+
+/* 4. Bordes blancos interiores en cada celda */
+.tabla-campos td {
+  border: 2px solid #ffffff;
+  padding: 8px 12px;
+  vertical-align: middle;
+  color: #000000;
+  font-size: 15px;
+}
+
+.celda-cabecera {
+  text-align: center;
+}
+
+.celda-centro {
+  text-align: center;
+}
+
+label, .etiqueta-texto {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 3px 5px;
+  border: 1px solid #7f7f7f;
+  background-color: #ffffff;
+}
+
+.input-largo {
+  width: 80%;
+}
+
+textarea {
+  resize: vertical;
+  color: #555555;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  background-color: #f0f0f0;
+  border: 1px solid #707070;
+  padding: 4px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  padding: 30px;
+}
+
+.contenedor-formulario {
+  width: 680px;
+  margin: 0 auto;
+  background-color: #e2876e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contenedor-formulario h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.tabla-campos {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.tabla-campos td {
+  border: 2px solid #ffffff;
+  padding: 12px;
+  background-color: #fafafa;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+}
+
+input:focus {
+  background-color: #e0f2fe;
+  outline: 2px solid #0284c7;
+}
+
+input:required {
+  border-left: 4px solid #ef4444;
+}
+
+input:read-only {
+  background-color: #cbd5e1;
+  color: #64748b;
+  cursor: not-allowed;
+}
+
+input:disabled {
+  opacity: 0.5;
+  background-color: #e2e8f0;
+  cursor: not-allowed;
+}
+
+input:checked + label {
+  font-weight: bold;
+  color: #16a34a;
+}
+
+input:focus:hover {
+  background-color: #fef08a;
+}

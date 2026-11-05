@@ -1,0 +1,9 @@
+p { color: blue; }
+p { color: green; }
+.aviso { color: red; }
+div p { color: orange; }
+p.aviso { color: purple; }
+#importante { color: black; }
+h1 { color: gray; }
+.grande { color: teal; }
+#titulo { color: brown; }

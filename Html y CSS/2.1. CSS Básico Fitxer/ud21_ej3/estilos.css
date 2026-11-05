@@ -1,0 +1,21 @@
+h1 em {
+    color: rgb(98, 255, 0);
+    font-style: normal;
+}
+
+li p {
+    background-color: rgb(187, 187, 187);
+}
+
+.comentarios p {
+    border-left: 4px solid blue;
+    padding-left: 8px;
+}
+
+p.especial {
+    color: darkviolet;
+}
+
+span.especial {
+  background-color: #f1c40f;
+}

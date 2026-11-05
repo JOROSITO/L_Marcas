@@ -1,0 +1,2 @@
+1. Al principio pone <!DOCTYPE htm> y es <!DOCTYPE html>
+2. En esta linea <html lan=es></html> se tiene que poner lang: <html lang=es></html>

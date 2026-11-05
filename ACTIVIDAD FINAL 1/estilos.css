@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #222222;
+    background-color: #ffffff;
+}
+
+/* HEADER */
+header {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    height: 60px;
+    width: auto;
+}
+
+.header-texto {
+    text-align: center;
+}
+
+.header-texto h1 {
+    color: #600000;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.header-texto h2 {
+    color: darkgreen;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* NAVEGACION */
+nav {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #ffffff;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    transition: all 0.2 ease;
+}
+
+nav ul li a:hover {
+    color: red;
+    border-top: 1px solid #fb0000;
+    border-bottom: 1px solid #fb0000;
+}
+
+/* ARTICLE */
+.redes {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+article {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding: 25px 20px;
+    height: 180px;
+}
+
+article img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.info-red {
+    overflow: hidden;
+}
+
+article h3 {
+    font-size: 18px;
+    font-width: 700;
+    margin-bottom: 8px;
+    color: #111111;
+}
+
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+
+article:nth-child(3) {
+    background-color: rgba(208,61,107,0.5);
+}
+
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    margin-top: 4px;
+    clear: both;
+}
+
+.redes-footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 4px;
+}
+
+.redes-footer img {
+    width: 42px;
+    height: 42px;
+    margin: 0 2px;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.redes-footer img:hover {
+    transform: scale(1.2);
+}
+
+.copyright {
+    background-color: #eee;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.copyright p {
+    font-size: 11.5px;
+    color: #666666;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+
+
+
+
+
+
+
+
